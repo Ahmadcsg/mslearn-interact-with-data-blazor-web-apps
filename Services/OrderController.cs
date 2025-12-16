@@ -45,4 +45,9 @@ public class OrdersController : Controller
 
         return order.OrderId;
     }
+
+    public void ResetOrder()
+    {
+        Order = new Order();
+    }
 }
